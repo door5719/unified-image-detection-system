@@ -1,0 +1,10 @@
+# Use faster-rcnn config for darknet aswell, explanation of settings in comments
+TRAIN:
+  SCALES: [416, ]       # Sets image resize height for training
+  MAX_SIZE: 416         # Sets image resize width for training
+  IMS_PER_BATCH: 64     # Sets the 'batch size'
+  BATCH_SIZE: 8        # Sets the 'subdivions size'
+                        # Every batch will process 'batch size' images in subsets of 'batch size'/'subdivions size'
+TEST:
+  SCALES: [832, ]       # Sets image resize height for testing
+  MAX_SIZE: 832         # Sets image resize width for testing

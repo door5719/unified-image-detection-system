@@ -1,0 +1,7 @@
+# Use faster-rcnn config for ssd aswell, explanation of settings in comments
+TRAIN:
+  MAX_SIZE: 300         # Sets the image resize width and height
+  IMS_PER_BATCH: 16     # Sets the 'batch size'
+  BATCH_SIZE: 32        # Sets the 'accumulative batch size'
+                        # Every iteration will process 'accumulative batch size' images (Caffe solver iter_size will be set to 'accumulative batch size'/'batch size')
+  SNAPSHOT_ITERS: 10000 # Sets the snapshot iteration interval

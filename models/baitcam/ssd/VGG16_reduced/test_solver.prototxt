@@ -1,0 +1,11 @@
+train_net: "/home/hth013/Master2017/src/models/baitcam/ssd/VGG16_reduced/train.prototxt"
+test_net: "/home/hth013/Master2017/src/models/baitcam/ssd/VGG16_reduced/test.prototxt"
+test_iter: 221
+test_interval: 1
+snapshot: 1
+snapshot_prefix: "/home/hth013/Master2017/src/output/baitcam/ssd/VGG16_reduced_94.08/vgg16_reduced_ssd"
+snapshot_after_train: false
+test_initialization: true
+eval_type: "detection"
+ap_version: "MaxIntegral"
+
