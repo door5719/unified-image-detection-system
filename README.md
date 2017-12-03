@@ -1,5 +1,8 @@
 # README
 
+Master's thesis 15.01.2017 - 01.06.2017.
+Unified Detection System for Automatic, Real-Time, Accurate Animal Detection in Camera Trap Images from the Arctic Tundra.
+
 $ROOT refers to the unified-detection-system root directory.
 
 $baitcam refers to baitcam dataset directory.
